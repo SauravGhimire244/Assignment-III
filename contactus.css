@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #caa6a6;
+    color: #333;
+}
+.contact-info p{
+    color: white;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1, h2, h3 {
+    color: #222;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #caa6a6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-image {
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: lightblue;
+}
+
+
+.contact-details {
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail-item {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: lightcyan ;
+}
+
+.detail-icon {
+    margin-bottom: 10px;
+    max-width: 50px;
+}
+
+.detail-item a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detail-item a:hover {
+    text-decoration: underline;
+
+}
+
+
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .details-container {
+        flex-direction: column;
+    }
+}
